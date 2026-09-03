@@ -1,51 +1,51 @@
-# Cálculo de Médias de Alunos em C++
+# Sistema de Cálculo de Médias em C++
 
-Projeto desenvolvido em C++ para realizar o cadastro de alunos, calcular suas médias e informar a situação de cada aluno com base nas notas obtidas.
+Projeto desenvolvido em C++ para realizar o cadastro de alunos, calcular suas médias e verificar a situação acadêmica de cada aluno com base nas notas obtidas.
 
 🔵 Sobre o Projeto
 
-O sistema recebe os dados de 5 alunos e calcula automaticamente a média de cada um:
+O sistema recebe os dados dos alunos e verifica automaticamente a situação de cada um:
 
 🟢 Aprovado — Média maior ou igual a 7,0
 🔴 Reprovado — Média menor que 7,0
 
-Além disso, o programa identifica qual aluno possui a maior média.
+Além disso, o sistema identifica qual aluno possui a maior média.
 
 📋 Informações analisadas
 
 # O programa solicita:
 
--Nome de cada aluno
+-Nome do aluno
 -3 notas para cada aluno
 -Notas entre 0 e 10
 
 # Cálculos
 
--Nota Final
--Soma das 3 notas ÷ 3
+-Média do aluno
+-Soma das três notas ÷ 3
 
 -Situação do aluno
 -Média ≥ 7,0 → Aprovado
 -Média < 7,0 → Reprovado
 
 -Maior média
--O sistema verifica qual aluno possui a maior média entre todos os cadastrados.
+-O sistema verifica qual aluno possui a maior média entre os alunos cadastrados.
 
 # Regras:
 
 🟢 Aprovado    Média ≥ 7,0
 🔴 Reprovado   Média < 7,0
 
-O programa também compara as médias e informa o aluno que obteve a maior média.
+O sistema também identifica o aluno que possui a maior média da turma.
 
 # Validação:
 
-O programa impede a inserção de notas inválidas, como:
+O programa também impede dados inválidos, como:
 
 Notas menores que 0;
 Notas maiores que 10.
 
-Caso uma nota inválida seja informada, o sistema solicita novamente as três notas do aluno.
+Caso alguma nota inválida seja informada, o programa solicita novamente as três notas do aluno.
 
 # Tecnologias
 
@@ -54,8 +54,6 @@ Caso uma nota inválida seja informada, o sistema solicita novamente as três no
 -iomanip
 -string
 -cstdlib
-
-# Como executar:
 
 1. Clone o projeto
 
@@ -72,7 +70,7 @@ g++ main.cpp -o calculo-medias
 
 # Objetivo:
 
-O projeto foi desenvolvido com finalidade acadêmica, colocando em prática conceitos fundamentais de programação em C++, como vetores, matrizes, funções, estruturas de repetição, estruturas condicionais, validação de dados e formatação de saída.
+O projeto foi desenvolvido com finalidade acadêmica, colocando em prática conceitos fundamentais de programação em C++, como vetores, matrizes, funções, estruturas de repetição, estruturas de decisão e validação de dados.
 
 # Saídas esperadas:
 
@@ -90,18 +88,6 @@ Ana            7.0   8.0   7.0     7.3   Aprovado
 Pedro          5.0   6.0   6.0     5.7   Reprovado
 
 Aluno com maior media: Carlos (9.0)
-
-```
-
-# Validação de notas:
-
-```text
-
-Digite as 3 notas de Joao: 8 12 9
-
-NOTA INVALIDA: Digite numeros de 0 a 10.
-
-Digite as 3 notas de Joao: 8 7 9
 
 ```
 
