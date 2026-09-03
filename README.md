@@ -16,7 +16,9 @@ Além disso, o sistema identifica qual aluno possui a maior média.
 # O programa solicita:
 
 -Nome do aluno
+
 -3 notas para cada aluno
+
 -Notas entre 0 e 10
 
 # Cálculos
@@ -30,6 +32,7 @@ Além disso, o sistema identifica qual aluno possui a maior média.
 -Situação do aluno
 
 -Média ≥ 7,0 → Aprovado
+
 -Média < 7,0 → Reprovado
 
 
@@ -40,6 +43,7 @@ Além disso, o sistema identifica qual aluno possui a maior média.
 # Regras:
 
 🟢 Aprovado    Média ≥ 7,0
+
 🔴 Reprovado   Média < 7,0
 
 O sistema também identifica o aluno que possui a maior média da turma.
@@ -49,17 +53,11 @@ O sistema também identifica o aluno que possui a maior média da turma.
 O programa também impede dados inválidos, como:
 
 Notas menores que 0;
+
 Notas maiores que 10.
 
 Caso alguma nota inválida seja informada, o programa solicita novamente as três notas do aluno.
 
-# Tecnologias
-
--C++
--iostream
--iomanip
--string
--cstdlib
 
 1. Clone o projeto
 
