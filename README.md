@@ -59,19 +59,6 @@ Notas maiores que 10.
 Caso alguma nota inválida seja informada, o programa solicita novamente as três notas do aluno.
 
 
-1. Clone o projeto
-
-git clone <URL_DO_REPOSITORIO>
-
-2. Compile
-
-g++ main.cpp -o calculo-medias
-
-3. Execute
-
-./calculo-medias
-
-
 # Objetivo:
 
 O projeto foi desenvolvido com finalidade acadêmica, colocando em prática conceitos fundamentais de programação em C++, como vetores, matrizes, funções, estruturas de repetição, estruturas de decisão e validação de dados.
