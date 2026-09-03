@@ -21,14 +21,20 @@ Além disso, o sistema identifica qual aluno possui a maior média.
 
 # Cálculos
 
+
 -Média do aluno
+
 -Soma das três notas ÷ 3
 
+
 -Situação do aluno
+
 -Média ≥ 7,0 → Aprovado
 -Média < 7,0 → Reprovado
 
+
 -Maior média
+
 -O sistema verifica qual aluno possui a maior média entre os alunos cadastrados.
 
 # Regras:
